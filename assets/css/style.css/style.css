@@ -99,16 +99,10 @@ footer a {
   color: #fce138;
 }
 .hero-form {
-  background-color: #fce138;
-  padding: 20px;
-  width: 500px; /* remove this? */
   color: #024e76;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #024e76;
 }
 .hero-form {
-  width: 40%;
+  /*width: 40%;  <<< weird something */ 
   margin: 3.5%;
   border: 3px solid #024e76;
   background-color: #fce138;
@@ -142,11 +136,11 @@ footer a {
   font-size: 16px;
 }
 /* HERO STYLES END */
-.intro {
-  text-align: center;
-}
+/*.intro {
+}  removed rule    */
 
 .intro p {
+  text-align: center;
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
@@ -154,16 +148,16 @@ footer a {
   margin: 0 auto;
 }
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
 .section-title {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
 }
 
@@ -217,7 +211,7 @@ footer a {
   width: 65%;
 }
 .text-left {
-  text-align: left;
+  text-align: left; /* removes this? */
 }
 
 .text-right {
@@ -240,7 +234,6 @@ footer a {
 }
 /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 .contact h2 {
@@ -282,7 +275,9 @@ footer a {
   font-size: 20px;
   color: red;
 }
-
+.flex-row {
+  display: flex;
+}
 
 
 
